@@ -7,10 +7,12 @@
   "author": "Claudio Alberto Faria Gonçalves <contato@claudioalberto.com.br>",
   "license": "MIT",
   "scripts": {
-    "start": "electron ./src/main.js"
+    "start": "electron ./src/main.js",
+    "deploy-win": "electron-packager ."
   },
   "devDependencies": {
     "electron": "^9.0.0",
+    "electron-packager": "^14.2.1",
     "nodemon": "^2.0.4"
   }
 }
