@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #200040;
+  color: #fafafa;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+main {
+  position: relative;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 1.5;
+  text-align: center;
+  font-weight: 300;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 75vw;
+}
+
+.input-seach {
+  background-color: rgba(128, 0, 255, 0.5);
+  color: #200040;
+  border: 0;
+  border-radius: 25px 25px 0px 0px;
+  padding: 25px 50px;
+  margin-top: 10px;
+  text-align: center;
+  color: #fafafa;
+  font-size: 1.3rem;
+}
+.input-seach::placeholder {
+  word-break: break-all;
+  color: rgba(250, 250, 250, 0.5);
+}
+
+.btn {
+  background-color: #6000bf;
+  border-radius: 0px 0px 25px 25px;
+  padding: 25px 50px;
+  border: 0px;
+  font-size: 1.3rem;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: #fafafa;
+  transition: all 300ms ease-in-out;
+}
+.btn:hover {
+  background-color: #46008c;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
