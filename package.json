@@ -1,0 +1,15 @@
+{
+  "name": "float-browser",
+  "description": "Browser flutuante que te permite carregar uma url e deixar em cima de outras aplicações.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:claudioalberto/float-browser.git",
+  "author": "Claudio Alberto Faria Gonçalves <contato@claudioalberto.com.br>",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron ./src/main.js"
+  },
+  "devDependencies": {
+    "electron": "^9.0.0"
+  }
+}
